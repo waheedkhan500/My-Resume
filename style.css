@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    background-image: url(./pexels-eva-bronzini-7599590.jpg);
+    background-size: cover;
+
+    
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: .6em;
+    /* padding-top: .5em; */
+    padding-bottom: .5em;
+}
+ 
+h2, span {
+    font-size: 1.5em;
+    /* padding-bottom: 1em; */
+}
+ 
+h3 {
+    font-size: 1em;
+    padding-bottom: 2px;
+}
+
+.about{
+    text-decoration: none;
+    /* color: black; */
+    text-align: justify;
+    letter-spacing: 1px;
+   
+}
+main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 2em;
+}
+header {
+    text-align: center;
+    margin: auto 2em;
+}
+ 
+section {
+    margin: auto 1em 2em 1em;
+    font-size: medium;
+    font-weight: 500;
+}
+.contact{
+    list-style: none;
+    margin-left: -1rem;
+}
+ 
+i {
+    margin-right: .5em;
+    color: brown;
+}
+
+.skills li{
+     margin: .2em auto;
+    color: brown;
+}
+p {
+    margin: .2em auto;
+    color: brown;
+    /* font-size: 18px; */
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
+ 
+hr {
+    border: none;
+    border: none;
+    background-color: brown;
+    height: 3px;
+}
+ 
+h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+}
+ 
+.education h3{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+    /* font-size: 1em; */
+}
+.work-list li{
+    color: brown;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ 
+
+.accomplishment{
+    margin-top:-2rem ;
+}
+.accomplishment p{
+    color: brown;
+    margin-top: 1.3rem;
+    font-size: 18px;
+ 
+}
+ 
+ 
+ 
+#mainLeft {
+    border-right: 1px solid brown;
+}
