@@ -4,7 +4,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-image: url(./pexels-eva-bronzini-7599590.jpg);
+    background-image: url(./assets/pexels-eva-bronzini-7599590.jpg);
     background-size: cover;
 
     
@@ -113,4 +113,29 @@ h1, h2, h3 {
  
 #mainLeft {
     border-right: 1px solid brown;
+}
+
+.download{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    
+    width: 10rem;
+    height: 2rem;
+    padding-top: 8px;
+    margin-left: 1rem;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 2rem;
+    background-color: #218838;
+    color: white;
+    transition: .5s;
+}
+.download:hover{
+     color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+    
+    background-color: rgba(0, 0, 0, 0.414);
+    /* color: black; */
 }
